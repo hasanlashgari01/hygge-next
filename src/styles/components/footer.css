@@ -1,0 +1,15 @@
+.footer-col {
+  @apply space-y-6;
+}
+
+.footer-title {
+  @apply text-2xl font-bold;
+}
+
+.footer-links {
+  @apply flex flex-col gap-4;
+
+  a {
+    @apply text-sm text-dark-100 transition-all delay-100 duration-500 ease-in-out hover:translate-x-2 hover:text-primary-100 dark:text-light-100 dark:hover:text-primary-100 sm:text-base;
+  }
+}

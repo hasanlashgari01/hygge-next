@@ -1,0 +1,7 @@
+.icon {
+  @apply flex cursor-pointer items-center justify-center;
+
+  svg {
+    @apply size-6 stroke-black-1 dark:stroke-white;
+  }
+}

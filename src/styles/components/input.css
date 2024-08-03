@@ -1,0 +1,6 @@
+.input {
+  @apply bg-accent dark:bg-black-2 lg:bg-white lg:dark:bg-black-4;
+  @apply w-full text-base font-normal md:max-w-md md:text-xl/8;
+  @apply px-4 py-3 md:px-6 md:py-4;
+  @apply rounded-[32px] outline-none;
+}
