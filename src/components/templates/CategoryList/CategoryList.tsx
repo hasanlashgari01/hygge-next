@@ -4,14 +4,14 @@ import { Category } from "../../modules/Category";
 import { SectionTop } from "../../modules/SectionTop";
 
 const data: TCategory[] = [
-  { icon: "sun", title: "On Sale" },
-  { icon: "leaf", title: "Featured" },
-  { icon: "sun", title: "Masks" },
-  { icon: "leaf", title: "Eye Care" },
-  { icon: "leaf", title: "Moisturizers" },
-  { icon: "leaf", title: "Treatments" },
-  { icon: "leaf", title: "Night Care" },
-  { icon: "leaf", title: "Sun Care" },
+  { id: 1, icon: "sun", title: "On Sale", path: "" },
+  { id: 2, icon: "leaf", title: "Featured",path: "" },
+  { id: 3, icon: "sun", title: "Masks",path: "" },
+  { id: 4, icon: "leaf", title: "Eye Care",path: "" },
+  { id: 5, icon: "leaf", title: "Moisturizers",path: "" },
+  { id: 6, icon: "leaf", title: "Treatments",path: "" },
+  { id: 7, icon: "leaf", title: "Night Care",path: "" },
+  { id: 8, icon: "leaf", title: "Sun Care",path: "" },
 ];
 
 export const CategoryList = () => {

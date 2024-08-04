@@ -1,3 +1,4 @@
+import { ProductCard } from "../../modules/ProductCard";
 import { SectionTop } from "../../modules/SectionTop";
 
 export const ExploreProducts = () => {
@@ -9,6 +10,9 @@ export const ExploreProducts = () => {
           subTitle="- Our Products"
           classNameTitle="max-md:mx-auto max-md:w-[300px]"
         />
+      </div>
+      <div className="mt-[72px]">
+        {/* <ProductCard /> */}
       </div>
     </section>
   );

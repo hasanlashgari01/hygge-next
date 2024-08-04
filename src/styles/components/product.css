@@ -1,0 +1,11 @@
+.product-offer {
+  @apply absolute -right-6 top-6 z-10 rounded-full bg-accent_2 px-4 py-2 text-sm/6 font-bold text-light-100;
+}
+
+.product-details {
+  @apply mt-8;
+}
+
+.product-title {
+  @apply text-2xl/10 font-semibold;
+}
